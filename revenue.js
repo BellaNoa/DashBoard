@@ -5,7 +5,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             labels: ["Agosto", "Setembro", "Outubro", "Novembro", "Dezembro", "Janeiro", "Fevereiro", "Março"],
             datasets: [{
                 label: 'Receita Mensal',
-                data: [ 76149.87 , 48211.96, 38807.27, 78031.32, 70204.82, 38881.71, 39767.23, 16821.40],
+                data: [ 76149.87 , 48211.96, 38807.27, 78031.32, 70204.82, 38881.71, 39767.23, 17702.01],
                 backgroundColor: 'rgba(0,206,209)',
                 borderColor: 'rgba(0, 0, 0, 0.2)',
                 borderWidth: 1
