@@ -5,7 +5,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             labels: ["Ago", "Set", "Out", "Nov", "Dez", "Jan", "Fev", "Mar"],
             datasets: [{
                 label: 'Vendas R$',
-                data: [64836.11,42308.00,37571.28,81082.49,72219.68,36375.93,40520.87,19454.75],
+                data: [64836.11,42308.00,37571.28,81082.49,72219.68,36375.93,40520.87,18160.35],
                 backgroundColor: 'rgba(173,216,230)',
                 borderColor: 'rgba(0, 0, 0, 0.2)',
                 borderWidth: 1
@@ -48,7 +48,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             labels: ["Ago", "Set", "Out", "Nov", "Dez", "Jan", "Fev", "Mar"],
             datasets: [{
                 label: 'Margem de Lucro %',
-                data: [14.75,50.53,112.94,42.36,90.73,40.52,17.26,19.68],
+                data: [14.75,50.53,112.94,42.36,90.73,40.52,17.26,15.82],
                 backgroundColor: 'rgba(70,130,180)',
                 borderColor: 'rgba(0, 0, 0, 0.2)',
                 borderWidth: 1
