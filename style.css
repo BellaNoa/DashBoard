@@ -1,0 +1,166 @@
+/* ---- RESET ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block {
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* ---------------- BODY ------------------- */
+
+body {
+    background: #ccc;
+    padding: 1rem;
+}
+
+/* ------------------------ TITULO -------------------- */
+
+.title {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.title--text {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* ------------------- CONTAINER -------------------- */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* --------------- SIDEBAR ----------------- */
+
+.sidebar {
+    width: 15%;
+    margin-top: 2rem;
+}
+
+.sidebar--menu {
+    text-align: center;
+    padding: 2rem 0;
+    height: 350px;
+}
+
+.menu--list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.list--item {
+    list-style: none;
+}
+
+.item--link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #57bbb4;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    transition: 0.5s;
+}
+
+.item--link:hover {
+    font-size: 1.5rem;
+    color: #0A9087;
+    transition: 0.5s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.logotipo {
+    width: 80%;
+}
+
+/* ------------------- DASHBOARD ----------------------- */
+
+.dash {
+    width: 80%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 2rem 2rem 2rem;
+}
+
+/* -------------------- DADOS -----------------------*/
+
+.dash--info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info--dados {
+    background: #dfdfdf;
+    margin-top: 1rem;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.info--dados h3 {
+    font-size: 0.8rem;
+}
+
+.info--dados p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ------------------ GRÁFICO ----------------------- */
+
+canvas {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* ---------------  PÁGINA DE RECEITAS -------------------*/
+
+.dash--barras {
+    padding: 4rem 2rem 2rem 2rem;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.list--legend {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    margin-left: 3rem;
+}
+
+.list--legend li {
+    list-style: none;
+    color: #4b4b4b;
+}
+
+/*  ----------------  PÁGINA DE DESPESAS -------------*/
+
+.dash--lines {
+    padding: 2rem;
+}
+
+/* ----------------- PÁGINA DE MARGEM ----------------*/
+
+.dash--twochart {
+    justify-content: space-evenly;
+}
