@@ -1,3 +1,30 @@
+// PÁGINA DE RECEITA
+
+var legendaReceita = document.getElementById("receitaMarco");
+
+var receita = 19789.57 ;                                        // ALTERAR VALOR DE RECEITA DO MÊS ATUAL
+
+function formatarMoeda(valor) {
+    // Verifica se o valor é um número
+    if (isNaN(valor)) {
+        return "Valor inválido";
+    }
+    
+    // Formata o valor para o formato de moeda brasileira
+    var numeroFormatado = valor.toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL'
+    });
+    
+    return numeroFormatado;
+}
+
+// Exemplo de uso da função
+var valor = receita;
+var valorFormatado = formatarMoeda(valor);
+legendaReceita.innerHTML = valorFormatado; // Saída: R$ 1.234,56
+
+
 var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'bar',
@@ -5,7 +32,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             labels: ["Agosto", "Setembro", "Outubro", "Novembro", "Dezembro", "Janeiro", "Fevereiro", "Março"],
             datasets: [{
                 label: 'Receita Mensal',
-                data: [ 76149.87 , 48211.96, 38807.27, 78031.32, 70204.82, 38881.71, 39767.23, 18544.67],
+                data: [ 76149.87 , 48211.96, 38807.27, 78031.32, 70204.82, 38881.71, 39767.23, receita],
                 backgroundColor: 'rgba(0,206,209)',
                 borderColor: 'rgba(0, 0, 0, 0.2)',
                 borderWidth: 1

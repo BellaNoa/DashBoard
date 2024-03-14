@@ -1,3 +1,8 @@
+// PÁGINA DE VENDAS & MARGEM
+
+var VendasAdCom = 19454.75;                   // VENDAS ADCOM
+var MargemAdCom = 19.68;                      // MARGEM DO ADCOM
+
 var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'bar',
@@ -5,7 +10,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             labels: ["Ago", "Set", "Out", "Nov", "Dez", "Jan", "Fev", "Mar"],
             datasets: [{
                 label: 'Vendas R$',
-                data: [64836.11,42308.00,37571.28,81082.49,72219.68,36375.93,40520.87,18160.35],
+                data: [64836.11,42308.00,37571.28,81082.49,72219.68,36375.93,40520.87,VendasAdCom],
                 backgroundColor: 'rgba(173,216,230)',
                 borderColor: 'rgba(0, 0, 0, 0.2)',
                 borderWidth: 1
@@ -48,7 +53,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             labels: ["Ago", "Set", "Out", "Nov", "Dez", "Jan", "Fev", "Mar"],
             datasets: [{
                 label: 'Margem de Lucro %',
-                data: [14.75,50.53,112.94,42.36,90.73,40.52,17.26,15.82],
+                data: [14.75,50.53,112.94,42.36,90.73,40.52,17.26,MargemAdCom],
                 backgroundColor: 'rgba(70,130,180)',
                 borderColor: 'rgba(0, 0, 0, 0.2)',
                 borderWidth: 1
