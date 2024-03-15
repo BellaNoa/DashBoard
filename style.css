@@ -15,7 +15,7 @@
 /* ---------------- BODY ------------------- */
 
 body {
-    background: #ccc;
+    background: #3dc6ca;
     padding: 1rem;
 }
 
@@ -105,25 +105,27 @@ body {
 
 .dash--info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .info--dados {
-    background: #dfdfdf;
+    background: #cefdff;
     margin-top: 1rem;
     width: 200px;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(9, 87, 74, 0.692);
 }
 
 .info--dados h3 {
+    color: #afafaf;
     font-size: 0.8rem;
 }
 
 .info--dados p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
+    margin: 5px 0;
 }
 
 /* ------------------ GRÁFICO ----------------------- */
@@ -164,3 +166,5 @@ canvas {
 .dash--twochart {
     justify-content: space-evenly;
 }
+
+/* ---------------- PÁGINA DO INVESTIMENTO --------------- */
