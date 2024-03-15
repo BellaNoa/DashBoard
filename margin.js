@@ -1,7 +1,7 @@
 // PÁGINA DE VENDAS & MARGEM
 
-var VendasAdCom = 19454.75;                   // VENDAS ADCOM
-var MargemAdCom = 19.68;                      // MARGEM DO ADCOM
+var VendasAdCom = 20767.85;                   // VENDAS ADCOM
+var MargemAdCom = 21.98;                      // MARGEM DO ADCOM
 
 var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
