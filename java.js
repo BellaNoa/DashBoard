@@ -5,7 +5,7 @@
 
     var marco = -3562.59;               // VALOR DO RESULTADO MENSAL DO MÊS - GRÁFICO
     var valorAtualAdCom = 20767.85;      // VALOR DAS VENDAS NO ADCOM            
-    objReal.innerHTML = 34,05 + " %";   // VALOR DO OBJETIVO ATINGIDO
+    objReal.innerHTML = 34.05 + " %";   // VALOR DO OBJETIVO ATINGIDO
 
 
     function formatarMoeda(valor) {
