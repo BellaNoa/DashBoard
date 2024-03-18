@@ -1,6 +1,6 @@
-var receitaMes = 19789.57;               // RECEITA DO MÊS 
-var despesasMes = 15335.77;              // DESDEPAS DO MÊS 
-var custosMes = 14936.39;                //CUSTOS DO MÊS 
+var receitaMes = 20536.21;               // RECEITA DO MÊS 
+var despesasMes = 15670.76;              // DESDEPAS DO MÊS 
+var custosMes = 18588.23;                //CUSTOS DO MÊS 
 
 document.addEventListener('DOMContentLoaded', function() {
   var ctx = document.getElementById('grafico').getContext('2d');

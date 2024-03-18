@@ -2,7 +2,7 @@
 
 var legendaReceita = document.getElementById("receitaMarco");
 
-var receita = 19789.57 ;                                        // ALTERAR VALOR DE RECEITA DO MÊS ATUAL
+var receita = 20536.21 ;                                        // ALTERAR VALOR DE RECEITA DO MÊS ATUAL
 
 function formatarMoeda(valor) {
     // Verifica se o valor é um número
@@ -19,10 +19,9 @@ function formatarMoeda(valor) {
     return numeroFormatado;
 }
 
-// Exemplo de uso da função
 var valor = receita;
 var valorFormatado = formatarMoeda(valor);
-legendaReceita.innerHTML = valorFormatado; // Saída: R$ 1.234,56
+legendaReceita.innerHTML = valorFormatado; 
 
 
 var ctx = document.getElementById('myChart').getContext('2d');

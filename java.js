@@ -3,9 +3,9 @@
     var valorRealMensal = document.getElementById("valorRealMensal"); // pega a tag <p> no index.html
     var objReal = document.getElementById("objetivoRealMensal"); // pega a tag <p> no index.html
 
-    var marco = -3562.59;               // VALOR DO RESULTADO MENSAL DO MÊS - GRÁFICO
-    var valorAtualAdCom = 20767.85;      // VALOR DAS VENDAS NO ADCOM            
-    objReal.innerHTML = 34.05;   // VALOR DO OBJETIVO ATINGIDO
+    var marco = -4902.78;               // VALOR DO RESULTADO MENSAL DO MÊS - GRÁFICO
+    var valorAtualAdCom = 24890.54;      // VALOR DAS VENDAS NO ADCOM            
+    objReal.innerHTML = 40.8 + "0";   // VALOR DO OBJETIVO ATINGIDO
 
 
     function formatarMoeda(valor) {
